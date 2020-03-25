@@ -6,6 +6,7 @@
 ## 文件说明
 - model.py：定义并生成模型
 - evaluate.py：加载训练得到的参数并进行二级结构预测
+- dataset.py：划分数据集
 - whole_sequence-best.hdf5.xz：已经训练好的网络参数，线上成绩0.772
 ## 方案介绍
 ### 特征表示
@@ -13,5 +14,5 @@
 ### 网络结构
 ![](https://github.com/yjh126yjh/TianChi_Protein-Secondary-Structure-Prediction/raw/master/pics/CNN.png)
 ### 结果复现
-1. 下载model.py、evaluate.py，下载whole_sequence-best.hdf5.xz并解压，放在同一个文件夹下。
+1. 下载model.py、evaluate.py、dataset.py，下载whole_sequence-best.hdf5.xz并解压，放在同一个文件夹下。
 2. 将evaluate.py中的filepath改成测试数据的路径，然后执行python evaluate.py。
