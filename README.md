@@ -8,6 +8,7 @@
 - evaluate.py：加载训练得到的参数并进行二级结构预测
 - dataset.py：划分数据集
 - whole_sequence-best.hdf5.xz：已经训练好的网络参数，线上成绩0.772
+- train.py：训练模型
 ## 方案介绍
 ### 特征表示
 ![](https://github.com/yjh126yjh/TianChi_Protein-Secondary-Structure-Prediction/raw/master/pics/Feature_Representation.png)
