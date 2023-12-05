@@ -10,7 +10,7 @@ session = InteractiveSession(config=config)
 import numpy as np
 from keras import optimizers, callbacks
 from timeit import default_timer as timer
-from dataset import get_train_dataset, get_dataset, split_with_shuffle, get_data_labels, get_cb513
+from dataset import get_train_dataset, split_with_shuffle, get_data_labels
 import model
 from time import time
 
