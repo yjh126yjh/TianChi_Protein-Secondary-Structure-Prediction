@@ -6,6 +6,7 @@
 ## 文件说明
 - model.py：定义并生成模型
 - evaluate.py：加载训练得到的参数并进行二级结构预测
+- preprocess.py：预处理数据
 - dataset.py：划分数据集
 - whole_sequence-best.hdf5.xz：已经训练好的网络参数，线上成绩0.772
 - train.py：训练模型
